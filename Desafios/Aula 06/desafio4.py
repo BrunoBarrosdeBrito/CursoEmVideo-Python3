@@ -1,0 +1,6 @@
+tes = input('Quer ver as caracteristicas do B18?')
+print('Ele e que tipo primitivo?',type(tes))
+print('Ele e alpha numerico?',tes.isalpha())
+print('Ele e um valor diferente de zero?',tes.isalnum())
+print('Ele tem todos caracteres maiúsculos?',tes.isupper())
+print('Ele e uma cadeia de caracteres especificada?',tes.isdigit())
